@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planeación del Huerto</title>
+
+    <link rel="stylesheet" href="Estilos.CSS">
+</head>
+
+<body>
+            <img src="Raices.jpeg" alt="Logo escuela" class="logo-esquina">
+
+<div class="botones">
+    <a href="index.html">Inicio</a>
+
+<a href="guia.html"> Guía</a>
+
+<a href="tabladecultivo.html"> Tabla de cultivos</a>
+
+<a href="cuidados.html"> Cuidados</a>
+
+<a href="planeacion.html"> Planeacion</a>
+
+<a href="registro.html"> Registro</a>
+
+
+
+
+ <!-- CONTENEDOR PRINCIPAL -->
+
+    <section class="planeacion">
+
+        <h1>Planea tu huerto urbano</h1>
+
+        <p class="intro">
+            Antes de comenzar un huerto urbano es importante organizar correctamente el espacio,
+            los cultivos y los materiales que se utilizarán. Una buena planeación ayuda a mejorar
+            el crecimiento de las plantas y evita problemas como exceso de agua, falta de luz o
+            mal desarrollo de las raíces.
+        </p>
+
+        <!-- BUSCADOR -->
+
+
+        <div class="buscador">
+
+            <h2>Buscador de cultivos</h2>
+
+            <p>
+                Escribe el nombre de una fruta, verdura o planta para conocer sus cuidados,
+                temporada ideal, tipo de riego y recomendaciones.
+            </p>
+
+            <input type="text" id="inputPlanta" placeholder="Ejemplo: tomate">
+
+            <button onclick="buscarPlanta()">
+                Buscar cultivo
+            </button>
+
+            <div id="resultado"></div>
+
+        </div>
+
+        <!-- INFORMACIÓN -->
+
+        <div class="bloque">
+
+            <h2>1. Selección del espacio</h2>
+                        <img src="Urbano3.jpeg" alt="Riego del huerto" width="300" height="200">
+                                    <img src="espacio.jfif" alt="Riego del huerto" width="300" height="200">
+                                                     <img src="espacio1.jfif" alt="Riego del huerto" width="300" height="200">
+       
+
+
+            <p>
+                El espacio es uno de los factores más importantes en un huerto urbano.
+                Puede utilizarse un balcón, patio, azotea o incluso una ventana con buena iluminación.
+            </p>
+
+            <h3>Características recomendadas:</h3>
+
+            <ul>
+                <li>Buena entrada de luz solar</li>
+                <li>Ventilación natural</li>
+                <li>Acceso sencillo al agua</li>
+                <li>Espacio suficiente para las macetas</li>
+            </ul>
+
+        </div>
+
+        <div class="bloque">
+
+            <h2>2. Recipientes y macetas</h2>
+
+            <p>
+                Los recipientes ayudan al correcto crecimiento de las raíces.
+                Deben contar con agujeros de drenaje para evitar acumulación de agua.
+            </p>
+
+            <h3>Ejemplos de recipientes:</h3>
+
+            <ol>
+                <li>Macetas de barro</li>
+                <li>Cubetas recicladas</li>
+                <li>Botellas de plástico</li>
+                <li>Cajas de madera</li>
+                <li>Huertos verticales</li>
+            </ol>
+
+        </div>
+
+        <div class="bloque">
+
+            <h2>3. Sustrato y tierra</h2>
+
+            <p>
+                El sustrato es la mezcla donde crecerán las plantas. Debe contener nutrientes,
+                retener humedad y permitir circulación de aire.
+            </p>
+
+            <dl>
+
+                <dt>Tierra negra</dt>
+                <dd>Aporta nutrientes y retiene humedad.</dd>
+
+                <dt>Fibra de coco</dt>
+                <dd>Ayuda al drenaje y mantiene humedad equilibrada.</dd>
+
+                <dt>Compost</dt>
+                <dd>Abono natural rico en nutrientes.</dd>
+
+            </dl>
+
+        </div>
+
+        <div class="bloque">
+
+            <h2>4. Riego y mantenimiento</h2>
+
+            <p>
+                El riego debe adaptarse al tipo de planta y clima.
+                Un exceso de agua puede provocar hongos y pudrición.
+            </p>
+
+            <table>
+
+                <tr>
+                    <th>Estación</th>
+                    <th>Frecuencia de riego</th>
+                </tr>
+
+                <tr>
+                    <td>Primavera</td>
+                    <td>Cada 1 o 2 días</td>
+                </tr>
+
+                <tr>
+                    <td>Verano</td>
+                    <td>Diario</td>
+                </tr>
+
+                <tr>
+                    <td>Otoño</td>
+                    <td>3 veces por semana</td>
+                </tr>
+
+                <tr>
+                    <td>Invierno</td>
+                    <td>1 o 2 veces por semana</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </section>
+
+    <script src="Java.JS"></script>
+
+</body>
+
+</html>

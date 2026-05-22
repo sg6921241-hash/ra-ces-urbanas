@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro del Huerto</title>
+        <link rel="stylesheet" href="Estilos.CSS">
+
+
+    <link rel="stylesheet" href="registro.css">
+
+</head>
+
+<body>
+        <img src="Raices.jpeg" alt="Logo escuela" class="logo-esquina">
+
+
+    <!-- MENÚ -->
+
+    <nav class="menu">
+
+        <a href="index.html">Inicio</a>
+        <a href="guia.html">Guia</a>
+        <a href="cuidados.html">Cuidados</a>
+        <a href="planeacion.html">Planeación</a>
+        <a href="registro.html">Registro</a>
+
+    </nav>
+
+    <!-- CONTENIDO -->
+    
+
+    <section class="registro">
+
+        <h1>Registro del huerto</h1>
+
+        <p class="intro">
+
+            Lleva un seguimiento del crecimiento de tus cultivos,
+            registra cambios, agrega fotografías y escribe observaciones
+            importantes sobre el desarrollo de tus plantas.
+
+        </p>
+
+        <!-- FORMULARIO -->
+
+        <div class="formulario">
+
+            <label>Nombre del cultivo</label>
+
+            <input type="text" id="cultivo" placeholder="Ejemplo: tomate">
+
+            <label>Fecha del registro</label>
+
+            <input type="date" id="fecha">
+
+            <label>Estado de la planta</label>
+
+            <select id="estado">
+
+                <option>Germinación</option>
+                <option>Crecimiento</option>
+                <option>Floración</option>
+                <option>Cosecha</option>
+
+            </select>
+
+            <label>Altura aproximada</label>
+
+            <input type="text" id="altura" placeholder="Ejemplo: 15 cm">
+
+            <label>Observaciones</label>
+
+            <textarea id="notas" placeholder="Escribe aquí los cambios observados..."></textarea>
+
+            <label>Agregar fotografía</label>
+
+            <input type="file" id="imagen" accept="image/*">
+
+            <button onclick="guardarRegistro()">
+                Guardar registro
+            </button>
+
+        </div>
+
+        <!-- RESULTADOS -->
+
+        <div id="contenedor"></div>
+
+    </section>
+
+    <script src="registro.js"></script>
+
+</body>
+    <script src="Java.JS"></script>
+
+
+</html>

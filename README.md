@@ -1,2 +1,2 @@
-# ra-ces-urbanas
+# raices-urbanas
 Pagina web educativa sobre huertos urbanos sustentables
